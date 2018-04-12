@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="53" viewBox="0 0 94 53">
+  <g fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 0 53)">
+    <path stroke="#000" stroke-dasharray="2 2" d="M0,51 C20.182415,53.5928081 35.5157484,49.9261415 46,40 C62.296714,24.976622 54.2394137,3 84,3"/>
+    <path fill="#000" fill-rule="nonzero" d="M87.3440307,7 L90.6559693,7 L89,1.48010217 L87.3440307,7 Z M89,-2 L92,8 L86,8 L89,-2 Z" transform="rotate(90 89 3)"/>
+  </g>
+</svg>
