@@ -3,19 +3,6 @@ $(document).ready(function() {
   // make the top container paralex scroll
   $('#rove_header_cntr').css('height', $(window).height());
   $('#rove_top_slide .slider-item').css('height', $(window).height());
-  var slht=$('#rove_top_slide .slider-item').height();
-  $('#rove_top_slide .text-content').css('padding-top', slht/3);
-  $(window).scroll(function() {
-       var scrollTop = $(window).scrollTop();
-       var widow=$(window).height();
-       if(scrollTop<250){
-        var newHeight=widow-scrollTop;
-      $('#rove_header_cntr').css('height', newHeight);
-      $('#rove_top_slide  .slider-item').css('height', newHeight);
-      slht=$('#rove_top_slide .slider-item').height();
-      $('#rove_top_slide .text-content').css('padding-top', slht/3);
-       }    
-  });
 
 
 

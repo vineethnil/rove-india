@@ -108,8 +108,17 @@ header.change .nav-dash a:before{
 }
 
 /*************Top slider******************/
+#rove_header_cntr{
+    background-image: url("../images/5_bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
 #rove_top_slide{
     width: 100%;
+    min-height: 500px;
     position: relative;
 }
 #rove_slide_cntr{
@@ -120,6 +129,9 @@ header.change .nav-dash a:before{
 }
 #rove_carousel .slider-inner{
   z-index: 11;
+}
+#rove_top_slide .slider-item{
+  min-height: 500px;
 }
 .slider-item {
     position: relative;
@@ -136,7 +148,9 @@ header.change .nav-dash a:before{
     perspective: 1000px;
 }
 .text-content {
-    z-index: 100px;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
 }
 .text_header{
     position:absolute;
@@ -144,6 +158,9 @@ header.change .nav-dash a:before{
     z-index:99;
     color:#FFFFFF;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    top: 46%;
+    -webkit-transform: translateY(-46%);
+    transform: translateY(-46%);
 }
 .text-content .text_header h1{
     color: #FFFFFF;
@@ -152,7 +169,6 @@ header.change .nav-dash a:before{
     line-height: 75px;
     text-align: center;
     z-index: 100;
-    /*margin-top: 210px; */
 }
 .text_header h1 span{
     color: #ECE27F;
